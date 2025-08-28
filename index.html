@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>로컬 인바운드 스튜디오 | 네이버 키워드 광고 초기세팅 (전환추적 포함)</title>
+  <meta name="description" content="네이버 키워드 광고 초기세팅 전담. 키워드·문구 작성, 전환추적 설치/검수, 결과 리포트 제공. STANDARD/DELUXE/PREMIUM 패키지." />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="로컬 인바운드 스튜디오 | 네이버 키워드 광고 초기세팅" />
+  <meta property="og:description" content="전환추적 포함 · 키워드/문구/세팅 · 리포트 제공" />
+  <meta property="og:image" content="https://dummyimage.com/1200x630/0056ff/ffffff.png&text=LOCAL+INBOUND+STUDIO" />
+  <meta property="og:locale" content="ko_KR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --blue:#0056FF; --blue-50:#EFF6FF; --gray-900:#111827; --gray-700:#374151; --gray-500:#6B7280; --gray-200:#E5E7EB; --gray-100:#F3F4F6; --green:#16A34A; --red:#EF4444;
+      --radius:20px; --shadow:0 10px 30px rgba(0,0,0,.06);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;font-family:'Noto Sans KR',system-ui,-apple-system,Segoe UI,Roboto,Apple SD Gothic Neo,Malgun Gothic,sans-serif;color:var(--gray-900);background:#fff}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1120px;margin:0 auto;padding:0 20px}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:14px 20px;border-radius:999px;font-weight:700}
+    .btn-primary{background:var(--blue);color:#fff;box-shadow:var(--shadow)}
+    .btn-ghost{background:#fff;color:var(--blue);border:2px solid var(--blue)}
+    header{position:sticky;top:0;z-index:40;background:#fff;border-bottom:1px solid var(--gray-200)}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+    .logo{display:flex;align-items:center;gap:12px;font-weight:800}
+    .logo-mark{width:40px;height:40px;border-radius:50%;border:2px solid var(--gray-900);display:grid;place-items:center;font-size:12px}
+    .hero{padding:72px 0 48px;background:linear-gradient(180deg,var(--blue) 0,#2e7aff 0, #fff 220px)}
+    .hero-card{margin-top:40px;background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:32px}
+    .eyebrow{display:inline-block;background:var(--blue);color:#fff;padding:8px 14px;border-radius:12px;font:700 16px 'Montserrat',sans-serif;letter-spacing:.06em}
+    h1{font-weight:800;font-size:40px;line-height:1.2;margin:18px 0 8px}
+    .sub{color:var(--blue);font-weight:700;font-size:22px}
+    /* sections */
+    section{padding:56px 0;border-top:1px solid var(--gray-100)}
+    h2{font:800 30px 'Noto Sans KR',sans-serif;margin:0 0 20px}
+    .grid{display:grid;gap:16px}
+    .grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .card{background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
+    .icon{width:22px;height:22px}
+    ul.clean{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+    .step{display:grid;grid-template-columns:40px 1fr;gap:12px;align-items:start}
+    .step .badge{width:40px;height:40px;border-radius:50%;background:var(--gray-100);display:grid;place-items:center;font-weight:800}
+    /* pricing */
+    .pricing{display:grid;gap:18px;grid-template-columns:repeat(3,minmax(0,1fr))}
+    .price-card{border:2px solid var(--gray-200);border-radius:24px;padding:28px;box-shadow:var(--shadow);background:#fff}
+    .price-card.reco{border-color:var(--blue);background:var(--blue-50)}
+    .price-title{display:flex;align-items:center;justify-content:space-between}
+    .price{font:800 28px 'Montserrat',sans-serif}
+    .tick{color:var(--green);font-weight:800}
+    .x{color:var(--red);font-weight:800}
+    .small{color:var(--gray-700);font-size:14px}
+    .faq details{border:1px solid var(--gray-200);border-radius:14px;padding:14px 16px;background:#fff}
+    .faq details+details{margin-top:12px}
+    .faq summary{cursor:pointer;font-weight:700}
+    footer{margin-top:40px;padding:32px 0;border-top:1px solid var(--gray-200);background:#fafafa;color:var(--gray-700)}
+    .muted{color:var(--gray-500);font-size:13px}
+    @media (max-width:980px){
+      .grid-3{grid-template-columns:1fr}
+      .grid-2{grid-template-columns:1fr}
+      h1{font-size:32px}
+      .hero{background:linear-gradient(180deg,var(--blue) 0,#2e7aff 0, #fff 200px)}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo"><div class="logo-mark">LI</div>로컬 인바운드 스튜디오</div>
+      <nav style="display:flex;gap:10px;align-items:center">
+        <a class="btn btn-ghost" href="#pricing">패키지 보기</a>
+        <!-- 채널/크몽 링크는 아래 href만 바꾸면 됩니다 -->
+        <a class="btn btn-primary" href="http://pf.kakao.com/_DiZxmn" target="_blank" rel="noopener">카카오채널 상담</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow">AD SETUP</span>
+        <div class="hero-card">
+          <h1>네이버 키워드 광고 초기세팅</h1>
+          <div class="sub">전환추적 포함</div>
+          <p class="small" style="margin:14px 0 22px">광고계정/키워드/문구/입찰 · 전환추적 설치/검수 · 결과 리포트 제공</p>
+          <div style="display:flex; gap:10px; flex-wrap:wrap">
+            <a class="btn btn-primary" href="http://pf.kakao.com/_DiZxmn" target="_blank" rel="noopener">카카오채널로 문의</a>
+            <a class="btn btn-ghost" href="https://kmong.com/your-service" target="_blank" rel="noopener">크몽 서비스 보기</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="scope">
+      <div class="container">
+        <h2>제공 범위</h2>
+        <div class="grid grid-3">
+          <div class="card"><strong>계정 세팅</strong><br><span class="small">광고계정/비즈채널 확인 및 연결</span></div>
+          <div class="card"><strong>키워드·문구</strong><br><span class="small">검색의도 기반 그룹·키워드 구성, 카피 작성</span></div>
+          <div class="card"><strong>전환추적</strong><br><span class="small">스토어 신청, 자사몰 설치·검수·연결</span></div>
+          <div class="card"><strong>입찰/예산 가이드</strong><br><span class="small">초기 입찰·일예산 제안</span></div>
+          <div class="card"><strong>리포트 제공</strong><br><span class="small">성과 요약·개선안</span></div>
+          <div class="card"><strong>옵션 점검</strong><br><span class="small">패키지별 점검/관리</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="container">
+        <h2>진행 절차</h2>
+        <div class="grid grid-2">
+          <div class="card step"><div class="badge">1</div><div><b>요청사항 접수</b><div class="small">기본정보/목표 확인</div></div></div>
+          <div class="card step"><div class="badge">2</div><div><b>권한 공유</b><div class="small">광고계정/태그 연동</div></div></div>
+          <div class="card step"><div class="badge">3</div><div><b>광고 세팅</b><div class="small">키워드·문구 적용</div></div></div>
+          <div class="card step"><div class="badge">4</div><div><b>전환추적 연결</b><div class="small">픽셀·이벤트 확인</div></div></div>
+          <div class="card step"><div class="badge">5</div><div><b>리포트 전달</b><div class="small">성과/개선안 안내</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="container">
+        <h2>패키지 & 가격</h2>
+        <div class="pricing">
+          <div class="price-card">
+            <div class="price-title"><b>STANDARD</b><span class="price">₩299,000</span></div>
+            <ul class="clean small" style="margin-top:12px">
+              <li><span class="tick">✔</span> 작업기간 7일</li>
+              <li><span class="tick">✔</span> 전환추적 설치/검수</li>
+              <li><span class="tick">✔</span> 리포트 1부</li>
+              <li><span class="x">✘</span> 점검/관리 포함 없음</li>
+              <li><b>수정 0회</b></li>
+            </ul>
+            <div style="margin-top:14px"><a class="btn btn-ghost" href="https://kmong.com/your-service" target="_blank" rel="noopener">주문하기</a></div>
+          </div>
+          <div class="price-card reco">
+            <div class="price-title"><b>DELUXE <span title="추천" style="font-size:14px;background:#fff;padding:4px 8px;border-radius:999px;margin-left:6px">추천</span></b><span class="price">₩499,000</span></div>
+            <ul class="clean small" style="margin-top:12px">
+              <li><span class="tick">✔</span> 작업기간 9일</li>
+              <li><span class="tick">✔</span> 전환추적 설치/검수</li>
+              <li><span class="tick">✔</span> 리포트 1부</li>
+              <li><span class="tick">✔</span> <b>1회 기본 점검</b></li>
+              <li><b>수정 1회</b></li>
+            </ul>
+            <div style="margin-top:14px"><a class="btn btn-primary" href="https://kmong.com/your-service" target="_blank" rel="noopener">DELUXE 선택</a></div>
+          </div>
+          <div class="price-card">
+            <div class="price-title"><b>PREMIUM</b><span class="price">₩990,000</span></div>
+            <ul class="clean small" style="margin-top:12px">
+              <li><span class="tick">✔</span> 작업기간 28일</li>
+              <li><span class="tick">✔</span> 전환추적 설치/검수</li>
+              <li><span class="tick">✔</span> 리포트 1부</li>
+              <li><span class="tick">✔</span> <b>2회 기본 점검</b></li>
+              <li><b>수정 2회</b></li>
+            </ul>
+            <div style="margin-top:14px"><a class="btn btn-ghost" href="https://kmong.com/your-service" target="_blank" rel="noopener">주문하기</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="faq">
+      <div class="container">
+        <h2>FAQ</h2>
+        <details><summary>전환추적은 꼭 필요한가요?</summary><p class="small">성과 측정과 최적화에 필수입니다. 스토어는 신청만으로 설치 완료, 자사몰은 설치/검수 후 연결합니다.</p></details>
+        <details><summary>리포트에는 어떤 내용이 있나요?</summary><p class="small">노출/클릭/비용/전환지표 요약과 개선안을 제공합니다.</p></details>
+        <details><summary>수정/환불 정책은?</summary><p class="small">패키지별 수정 횟수는 상단 표를 참고하세요. 작업 전 전액 환불, 착수 후에는 진행 비율에 따라 환불, 세팅 완료·리포트 제공 후 환불 불가입니다.</p></details>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>연락처</h2>
+        <div class="card" style="display:grid;gap:8px">
+          <div class="small">크몽 내 메시지 또는 카카오채널로 문의해주세요. 외부 결제/연락처 유도는 하지 않습니다.</div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:6px">
+            <a class="btn btn-primary" href="https://pf.kakao.com/_YOUR_CHANNEL" target="_blank" rel="noopener">카카오채널 열기</a>
+            <a class="btn btn-ghost" href="https://kmong.com/your-service" target="_blank" rel="noopener">크몽 서비스 페이지</a>
+            <a class="btn btn-ghost" href="mailto:hello@localinbound.studio?subject=%5B문의%5D%20네이버%20키워드%20광고%20초기세팅">이메일로 문의</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <div class="muted">© <span id="y"></span> LOCAL INBOUND STUDIO</div>
+      <div class="muted">Brand color #0056FF · 본 페이지는 소개용 랜딩이며 모든 상담/결제는 크몽/카카오채널을 통해 진행합니다.</div>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
